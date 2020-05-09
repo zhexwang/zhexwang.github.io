@@ -1,0 +1,14 @@
+body {
+	font-size: 11pt;
+	line-height: 1.5em;
+}
+
+ul {
+	list-style-position: outside;
+	margin-left:-1.5em;
+}
+
+blockquote {
+	font-size: 11pt;
+	line-height: 1.5em;
+}

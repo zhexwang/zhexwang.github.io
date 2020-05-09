@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Zhe Wang</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <link href="./images/favicon.png" rel="icon">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+        <link href="./css/custom.css" rel="stylesheet">
+
+
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">Zhe Wang</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#nav-pub">Publication</a></li>
+                    <li><a href="#awards">Awards</a></li>
+		    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#nav-exp">Experience</a></li>
+                    <li><a href="#nav-service">Service</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <a href="http://www.ict.cas.cn/" class="navbar-brand">
+<img class="img-responsive pull-left gap-right" src="./images/ictlogo.png" width="180"/>             </a>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+	<h1>Zhe Wang (王喆)</h1>
+	<table width="100%">
+		<tr>
+			<td width="85%" valign="middle">
+				<h4>Assistant Professor</h4>
+				<p>State Key Laboratory of Computer Architecture<br>
+				Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS)</p>
+				<p><strong>Office: </strong>No 6. Kexueyuan South Road, Haidian District, Beijing 100190, China<br>
+				<strong>Email: </strong><a href="mailto:wangzhe12@ict.ac.cn">wangzhe12 {at} ict [dot] ac [dot] cn</a></p>
+				<p><a	href="https://scholar.google.com/citations?hl=en&user=BhrgPeMAAAAJ">Google scholar</a>
+				| 
+				<a href="https://github.com/zhexwang">GitHub</a>
+				</p>
+			</td>
+			<td width="15%" valign="middle">
+				<img width="180" height="180" src="images/zhe_wang.jpg" class="img-fluid">
+			</td>
+		</tr>
+</table>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+    		<section id="content" class="body">
+	<br>
+<div class="entry-content">
+<p>I am an assistant professor at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS). I obtained my Ph.D. in Computer Architecture from ICT in 2018, and my bachelor in Software Engineering from Beijing University of Technology (BJUT) in 2012. </p>
+
+<h2> News </h2>
+<ul class="simple">
+<li class="news-entry" ><strong>[03/04/2020]</strong> SEIMI got accepted to Oakland'20! It securely runs user code in kernel mode (ring 0) using virtualization techniques.</li>
+<li class="news-entry" ><strong>[04/16/2019]</strong> SafeHidden got accepted to USENIX Security'19! It uses the re-randomization technique to protect the safe area in the information hiding technique against memory probing attacks.</li>
+<li><strong>...</strong></li>
+</ul>
+<br>
+	
+<h2 id="research">Research</h2>
+<p>My research intrests lie in computer security. In particular, my primary research lies at the intersection of 
+	security, operating systems, system virtualization, program analysis, dynamic binary translation, and compilers. 
+	I have been working in the following directions.</p>
+<ul class="simple">
+<li><strong>Building-block techniques for software security</strong><ul>
+<li>Intra-process isolation, kernel module isolation</li>
+</ul>
+</li>
+<li><strong>System hardening against runtime attacks</strong><ul>
+<li>Memory safety, control-flow integrity, (re-)randomization, execute-only memory</li>
+</ul>
+</li>	
+<li><strong>Mining software bugs and vulnerabilities</strong><ul>
+<li>Reproducing concurrency bugs for multi-threaded programs, javascript engine fuzzing</li>
+</ul>
+</li>
+<li><strong>Hardware vulnerabilies exploit and mitigation</strong><ul>
+<li>Transient execution attacks and defenses, traditional cache based side channels</li>
+</ul>
+</li>
+<li><strong>Process-level and full-system virtualization</strong><ul>
+<li>Dynamic binary translation, hardware-assist virtualization, software emulation based virtualization </li>
+</ul>
+</li>
+</ul>
+<!-- - **Privacy-leak detection and malware analysis** -->
+  <link rel="stylesheet" type="text/css" href="css/pubs.css" />
+<br>
+<h2 id="nav-pub">Publications</h2>
+<ul class="simple">
+ <li class="pub-meta">
+  <div class="pub" data-type="Conference paper"  data-key="seimi">
+   <span class="pub-title">SEIMI: Efficient and Secure SMAP-Enabled Intra-process Memory Isolation</span>
+   <span class="pub-links">  [<a href="papers/seimi.pdf" class="ext">PDF</a> | <a href="slides/seimi.pptx" class="ext">Slides</a>]</span><br>
+   <span class="pub-author"><strong>Zhe Wang</strong>, Chenggang Wu, Mengyao Xie, Yinqian Zhang, Kangjie Lu, Xiaofeng Zhang, Yuanming Lai, Yan Kang, and Min Yang.</span><br>
+   <span class="pub-in"> To appear in <i>Proceedings of the 41st IEEE Symposium on Security and Privacy (<b>Oakland'20</b>)</i>. San Francisco, CA, May 2020.</span>
+  </div>
+ </li>
+ <li class="pub-meta">
+  <div class="pub" data-type="Conference paper"  data-key="safehidden">
+   <span class="pub-title">SafeHidden: An Efficient and Secure Information Hiding Technique Using Re-randomization</span>
+   <span class="pub-links">  [<a href="papers/safehidden.pdf" class="ext">PDF</a> | <a href="slides/safehidden.pptx" class="ext">Slides</a>]</span><br>
+   <span class="pub-author"><strong>Zhe Wang</strong>, Chenggang Wu, Yinqian Zhang, Bowen Tang, Pen-Chung Yew, Mengyao Xie, Yuanming Lai, Yan Kang, Yueqiang Cheng, and Zhiping Shi.</span><br>
+   <span class="pub-in"> In <i>Proceedings of the 28th USENIX Security Symposium (<b>Security'19</b>)</i>. Santa Clara, CA, August 2019.</span>
+  </div>
+ </li>
+ <li class="pub-meta">
+  <div class="pub" data-type="Journal article"  data-key="recublc">
+   <span class="pub-title">Using Local Clocks to Reproduce Concurrency Bugs</span>
+   <span class="pub-links">  [<a href="papers/recublc.pdf" class="ext">PDF</a> | <a href="slides/recublc.pptx" class="ext">Slides</a>]</span><br>
+   <span class="pub-author"><strong>Zhe Wang</strong>, Chenggang Wu, Xiang Yuan, Zhenjiang Wang, Jianjun, Li, Pen-Chung Yew, Jeff Huang, Xiaobing Feng, Yanyan Lan, Yunji Chen, and Yuanming Lai.</span><br>
+   <span class="pub-in">IEEE Transactions on Software Engineering (<b>TSE'17</b>), September 2017.</span>
+  </div>
+ </li>
+ <li class="pub-meta">
+  <div class="pub" data-type="Conference paper"  data-key="reranz">
+   <span class="pub-title">ReRanz: A Light-Weight Virtual Machine to Mitigate Memory Disclosure Attacks</span>
+   <span class="pub-links">  [<a href="papers/reranz.pdf" class="ext">PDF</a> | <a href="slides/reranz.pptx" class="ext">Slides</a>]</span><br>
+   <span class="pub-author"><strong>Zhe Wang</strong>, Chenggang Wu, Jianjun Li, Yuanming Lai, Xiangyu Zhang, Wei-Chung Hsu, and Yueqiang Cheng.</span><br>
+   <span class="pub-in"> In <i>Proceedings of the 13th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environment (<b>VEE'17</b>)</i>. Xi'an, China, April 2017.</span>
+  </div>
+ </li>
+ <li class="pub-meta">
+  <div class="pub" data-type="Conference paper"  data-key="hspt">
+   <span class="pub-title">HSPT: Practical Implementation and Efficient Management of Embedded Shadow Page Tables for Cross-ISA System Virtual Machines</span>
+   <span class="pub-links">  [<a href="papers/hspt.pdf" class="ext">PDF</a> | <a href="slides/hspt.pptx" class="ext">Slides</a>]</span><br>
+   <span class="pub-author"><strong>Zhe Wang</strong>, Jianjun Li, Chenggang Wu, Dongyan Yang, Zhenjiang Wang, Wei-Chung Hsu, Bin Li, and Yong Guan.</span><br>
+   <span class="pub-in"> In <i>Proceedings of the 11th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environment (<b>VEE'15</b>)</i>. Istanbul, Turkey, March 2015.</span>
+  </div>
+ </li>
+</ul>
+	
+<br>
+	    
+<h2 id="awards">Scholarship & Awards</h2>
+<ul class="simple">
+  <li><strong>Outstanding scientific research staff</strong> in Institute of Computing Technology, 2019</li>
+  <li><strong>Presidential Scholarship</strong> in University of Chinese Aacademy of Sciences, 2018</li>
+  <li><strong>Special Presidential Scholarship</strong> in Institute of Computing Technology, 2017</li>
+  <li><strong>Twice National Scholarship</strong> for Ph.D. Candidates, 2017, 2015</li>
+  <li><strong>Sugon Scholarship</strong> for Ph.D. Candidates, 2014</li>
+  <li><strong>Pacemaker to Merit Student Award</strong> in University of Chinese Aacademy of Sciences, 2014</li>
+  <li><strong>Merit Student Award</strong> in University of Chinese Aacademy of Sciences, 2013</li>
+</ul>
+	
+<br>
+
+<h2 id="skill">Professional Skill</h2>
+<ul class="simple">
+<li><strong>Virtualization</strong>: KVM, QEMU, HyperDbug, Dune</li>
+<li><strong>OS Kernel</strong>: Linux</li>
+<li><strong>Compiler Framework</strong>: LLVM</li>
+<li><strong>Binary Instrumentation</strong>: Pin, Dyninst, Dynamorio</li>
+<li><strong>Binary Disassembler/Assembler</strong>: IDA Pro, Distorm, Capstone</li>
+<li><strong>Programming Language</strong>: X86/ARM/MIPS ASM, C, C++, Bash Shell, Makefile, SMT, Python</li>
+</ul>
+
+<br>
+<h2 id="nav-exp">Professional Experience</h2>
+<table width="100%">
+  <tbody>
+	<tr>
+    <td width="20%">Assistant Professor</td>
+    <td width="60%">Institute of Computing Technology, Chinese Academy of Sciences</td>
+    <td width="20%" align="right">2018.7 - Present</td>
+  </tr>
+</tbody></table>
+<br>
+
+<h2 id='nav-service'>Professional Services</h2>
+	<p><strong>TPC Member</strong></p>
+	<ul class="simple">
+	<li>N/A</li>
+	</ul>
+	<p><strong>Journal Reviewer</strong></p>
+	<ul class="simple">
+	<li>Journal of Computer Science and Technology (JCST), 2020</li>
+	</ul>
+	<p><strong>External Reviewer</strong></p>
+	<ul class="simple">
+	<li>IEEE Symposium on Security and Privacy (Oakland), 2020</li>
+	<li>IEEE/ACM International Symposium on Code Generation and Optimization (CGO), 2015, 2016, 2017, 2018</li>
+	<li>ACM SIGPLAN symposium on Principles and practice of parallel programming (PPoPP), 2017, 2018</li>
+	<li>IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid), 2015</li>
+	</ul>
+<br>
+	
+<div id="tracker">
+<center>
+<a href="https://clustrmaps.com/site/1b7z9"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=NYkScIp1GO1l-iMXklMoKYGxvHTQG-BAmifVXYkliB4&cl=ffffff" /></a>
+</center>
+</div>
+
+        </div>
+    		</section>
+        </div>
+    </div>
+</div>
+		
+
+		
+<script type="text/javascript">
+var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(101130037);
+(function() {
+	var s = document.createElement('script');
+	s.type = 'text/javascript';
+	s.async = true;
+	s.src = '//static.getclicky.com/js';
+	( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+})();
+</script>
+
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy;  Zhe Wang
+            &middot; Last Updated: 05 / 08 / 2020</div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+</body>
+</html>
